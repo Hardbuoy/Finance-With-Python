@@ -1,0 +1,5 @@
+# Virtual Environments
+finance_env
+
+# python specifics
+.ipynb_checkpoints
