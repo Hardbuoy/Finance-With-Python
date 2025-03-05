@@ -16,7 +16,7 @@
    - Mac/Linux: 'which python'
    - Windows: 'where python'    
 6. Install required packages
-   - 'pip install numpy matplotlib pandas yfinace mplfinance plotly jupyter'
+   - 'pip install numpy matplotlib pandas yfinance mplfinance plotly jupyter'
 7. Create a requirement.txt file
    - 'pip freeze > requirement.txt 
    - To install from requirement.txt file: 'pip install -r requirement.txt'
