@@ -6,17 +6,17 @@
 
 0. Ensure Python is installed on your system
 1. Open Terminal in VSCode
-2. Ensure you're in the project folder '<Path-to-finance with python>'
+2. Ensure you're in the project folder '<Path-to-CyberGis>'
 3. Create Virtual Environment
    -  'python -m venv finance_env'
 4. Activate Virtual Environment
-    - Mac/Linux: 'source finance_env/bin/activate'
-    - Windows:  '.\finance_env\Scripts\activate'
+    - Mac/Linux: 'source CyberGis/bin/activate'
+    - Windows:  '.\CyberGis\Scripts\activate'
 5. Verify Activation
    - Mac/Linux: 'which python'
    - Windows: 'where python'    
 6. Install required packages
-   - 'pip install numpy matplotlib pandas yfinance mplfinance plotly jupyter'
+   - 'pip install numpy matplotlib pandas rasterio folium mplleaflet basemap cartopy plotly jupyter'
 7. Create a requirement.txt file
    - 'pip freeze > requirement.txt 
    - To install from requirement.txt file: 'pip install -r requirement.txt'
